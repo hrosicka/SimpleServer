@@ -18,3 +18,11 @@ Perfect for beginners who want to learn the basics of web servers and Go program
    ```bash
    cd SimpleServer
    ```
+   
+2. **Run the server:**
+   ```bash
+   go run main.go handlers.go types.go
+   ```
+
+3. **Access the server:**
+   Open your browser and visit [http://localhost:8080](http://localhost:8080)
