@@ -1,6 +1,6 @@
-# SimpleServer
+# SimpleServer 🚀
 
-A simple HTTP server written in Go. 🚀  
+A simple HTTP server written in Go.   
 Perfect for beginners who want to learn the basics of web servers and Go programming!   
 **Let’s make your browser say “Hello” like never before!** 👋
 
@@ -21,7 +21,7 @@ Perfect for beginners who want to learn the basics of web servers and Go program
 
 ---
 
-## 🤩 Getting Started
+## 🎬 Getting Started
 *Don’t worry, even your grandma could run this server. Just follow these steps!*
 
 1. **Clone this repository:**
@@ -42,7 +42,7 @@ Perfect for beginners who want to learn the basics of web servers and Go program
 
 ---
 
-## How to Test the Application 🧪
+## 🧪 How to Test the Application 
 
 ### 1. Start the Server
 
