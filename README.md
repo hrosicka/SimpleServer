@@ -1,18 +1,19 @@
 # SimpleServer
 
 A simple HTTP server written in Go. 🚀  
-Perfect for beginners who want to learn the basics of web servers and Go programming!
+Perfect for beginners who want to learn the basics of web servers and Go programming!   
+**Let’s make your browser say “Hello” like never before!** 👋
 
 ---
 
-## Features
+## 🧠 Features
 - Serves HTTP requests
-- Easy to understand
+- Easy to understand 
 - Minimal dependencies
 
 ---
 
-## Requirements
+## 🛠️ Requirements
 
 - [Go 1.18+](https://go.dev/dl/) installed on your system
 - Internet connection (for cloning the repository)
@@ -20,7 +21,8 @@ Perfect for beginners who want to learn the basics of web servers and Go program
 
 ---
 
-## Getting Started
+## 🤩 Getting Started
+*Don’t worry, even your grandma could run this server. Just follow these steps!*
 
 1. **Clone this repository:**
    ```bash
@@ -40,18 +42,21 @@ Perfect for beginners who want to learn the basics of web servers and Go program
 
 ---
 
-## How to Test the Application
+## How to Test the Application 🧪
 
 ### 1. Start the Server
 
 Make sure you have Go installed. Then, run the server from the project directory.
 
+---
+
 ### 2. Testing GET Endpoints in the Browser
 
 Server provides two GET endpoints that can be tested directly from the browser by entering the URL. Both endpoints accept query parameters, so you can easily customize the request.
 
-#### 1. `/hello` endpoint (GET):
-**Returns a personalized JSON greeting message. Optionally takes a name parameter via the query string.**
+#### `/hello` endpoint (GET):
+**Returns a personalized JSON greeting message. Optionally takes a name parameter via the query string.**   
+*Try changing the name for a different greeting. The server never gets tired of saying hello!*
 - Open your browser.
 - In the address bar, enter (replace ```Hanka``` with any name you like):
 
@@ -66,8 +71,9 @@ Server provides two GET endpoints that can be tested directly from the browser b
   }
   ```
   
-#### 2. `/data` endpoint (GET):
-Returns a JSON message and echoes back the provided id and type parameters.
+#### `/data` endpoint (GET):
+**Returns a JSON message and echoes back the provided id and type parameters.**   
+*Send your data and see it come right back at you! It’s like playing catch with a server.*
 - Open your browser.
 - In the address bar, enter (replace ```123456``` and ```user``` with any name you like):
 
@@ -85,10 +91,13 @@ Returns a JSON message and echoes back the provided id and type parameters.
      }
   }
   ```
+  
+---
 
-### 3. Testing POST Endpoints in the Browser
-#### 1. `/submit` endpoint (POST):
-Accepts a JSON object with name, surname, and email in the request body. Returns a confirmation message and saves the data.
+### 2. Testing POST Endpoints in the Browser
+#### `/submit` endpoint (POST):
+**Accepts a JSON object with name, surname, and email in the request body. Returns a confirmation message and saves the data.**   
+*Submit your name, surname, and email. The server will remember… at least until you delete the file!*
 **With Postman:**
 
 1. Open Postman.
