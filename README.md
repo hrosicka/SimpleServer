@@ -12,6 +12,14 @@ Perfect for beginners who want to learn the basics of web servers and Go program
 
 ---
 
+## Requirements
+
+- [Go 1.18+](https://go.dev/dl/) installed on your system
+- Internet connection (for cloning the repository)
+- (Optional) [Postman](https://www.postman.com/) or `curl` for testing POST requests
+
+---
+
 ## Getting Started
 
 1. **Clone this repository:**
@@ -42,8 +50,8 @@ Make sure you have Go installed. Then, run the server from the project directory
 
 Server provides two GET endpoints that can be tested directly from the browser by entering the URL. Both endpoints accept query parameters, so you can easily customize the request.
 
-#### 1. `/hello` endpoint
-Returns a JSON greeting message. Optionally takes a name parameter via the query string.
+#### 1. `/hello` endpoint (GET):
+**Returns a personalized JSON greeting message. Optionally takes a name parameter via the query string.**
 - Open your browser.
 - In the address bar, enter (replace ```Hanka``` with any name you like):
 
@@ -58,7 +66,7 @@ Returns a JSON greeting message. Optionally takes a name parameter via the query
   }
   ```
   
-#### 2. `/data` endpoint
+#### 2. `/data` endpoint (GET):
 Returns a JSON message and echoes back the provided id and type parameters.
 - Open your browser.
 - In the address bar, enter (replace ```123456``` and ```user``` with any name you like):
@@ -79,8 +87,8 @@ Returns a JSON message and echoes back the provided id and type parameters.
   ```
 
 ### 3. Testing POST Endpoints in the Browser
-#### 1. `/submit` endpoint
-
+#### 1. `/submit` endpoint (POST):
+Accepts a JSON object with name, surname, and email in the request body. Returns a confirmation message and saves the data.
 **With Postman:**
 
 1. Open Postman.
