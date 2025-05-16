@@ -78,6 +78,39 @@ Returns a JSON message and echoes back the provided id and type parameters.
   }
   ```
 
+### 3. Testing POST Endpoints in the Browser
+#### 1. `/submit` endpoint
 
+**With Postman:**
 
+1. Open Postman.
+2. Set the method to POST.
+3. Enter the URL:
+```http://localhost:8080/submit```
+4. Go to the Body tab, select raw, and choose JSON.
+5. Enter sample data:
+```json
+{
+    "name": "Martin",
+    "surname": "West",
+    "email": "martin.west@example.com"
+}
+```
+6. Click **Send**.
+7. You should see a JSON response like:
+```json
+{
+    "message": "Data received for user Martin West (martin.west@example.com).",
+    "data": {
+        "name": "Martin",
+        "surname": "West",
+        "email": "martin.west@example.com"
+    }
+}
+```
+
+**With curl:**
+```
+curl -X POST -H "Content-Type: application/json" -d '{"name": "Alice", "surname": "Blue", "email": "alice.blue@example.com"}' http://localhost:8080/submit
+```
 
