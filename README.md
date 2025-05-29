@@ -1,5 +1,13 @@
 # SimpleServer 🚀
 
+![Go](https://img.shields.io/badge/language-Go-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Build with Go](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Minimal size](https://img.shields.io/badge/minimal-21KB-lightgrey.svg)
+![Open Source](https://img.shields.io/badge/open--source-yes-green)
+![Say Hello!](https://img.shields.io/badge/says-hello!-orange?logo=handshake)
+
+
 A simple HTTP server written in Go.   
 Perfect for beginners who want to learn the basics of web servers and Go programming!   
 **Let’s make your browser say “Hello” like never before!** 👋
