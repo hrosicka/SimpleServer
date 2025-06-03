@@ -6,7 +6,9 @@
 ![Minimal size](https://img.shields.io/badge/minimal-21KB-lightgrey.svg)
 ![Open Source](https://img.shields.io/badge/open--source-yes-green)
 ![Say Hello!](https://img.shields.io/badge/says-hello!-orange?logo=handshake)
-
+![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-brightgreen?logo=leaflet)
+![Minimal Dependencies](https://img.shields.io/badge/dependencies-minimal-lightgrey?logo=minutemailer)
+![MIT License](https://img.shields.io/badge/license-MIT-blue?logo=open-source-initiative)
 
 A simple HTTP server written in Go.   
 Perfect for beginners who want to learn the basics of web servers and Go programming!   
