@@ -141,3 +141,11 @@ Server provides two GET endpoints that can be tested directly from the browser b
 curl -X POST -H "Content-Type: application/json" -d '{"name": "Alice", "surname": "Blue", "email": "alice.blue@example.com"}' http://localhost:8080/submit
 ```
 
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+
+
