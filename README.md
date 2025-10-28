@@ -143,6 +143,11 @@ curl -X POST -H "Content-Type: application/json" -d '{"name": "Alice", "surname"
 
 ---
 
+## Author
+Lovingly crafted by [Hanka Robovska](https://github.com/hrosicka)
+
+---
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
