@@ -1,14 +1,23 @@
 # SimpleServer 🚀
 
-![Go](https://img.shields.io/badge/language-Go-blue.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Build with Go](https://img.shields.io/badge/build-passing-brightgreen.svg)
-![Minimal size](https://img.shields.io/badge/minimal-21KB-lightgrey.svg)
-![Open Source](https://img.shields.io/badge/open--source-yes-green)
-![Say Hello!](https://img.shields.io/badge/says-hello!-orange?logo=handshake)
-![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-brightgreen?logo=leaflet)
-![Minimal Dependencies](https://img.shields.io/badge/dependencies-minimal-lightgrey?logo=minutemailer)
-![MIT License](https://img.shields.io/badge/license-MIT-blue?logo=open-source-initiative)
+<div align="center">
+
+  <a href="https://go.dev/">
+    <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  </a>
+  <img src="https://img.shields.io/badge/Build-Passing-22C55E?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build Passing" />
+  <img src="https://img.shields.io/badge/Minimal-21KB-334155?style=for-the-badge&logo=files&logoColor=white" alt="Minimal Size" />
+  <img src="https://img.shields.io/badge/Dependencies-Minimal-3B82F6?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Minimal Dependencies" />
+  <br/>
+
+  <img src="https://img.shields.io/badge/Beginner-Friendly-22C55E?style=for-the-badge&logo=sparkles&logoColor=white" alt="Beginner Friendly" />
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-10B981?style=for-the-badge&logo=git&logoColor=white" alt="Open Source" />
+  <img src="https://img.shields.io/badge/Says-Hello!-F97316?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Say Hello!" />
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License: MIT" />
+  </a>
+
+</div>
 
 A simple HTTP server written in Go.   
 Perfect for beginners who want to learn the basics of web servers and Go programming!   
